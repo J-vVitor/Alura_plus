@@ -25,7 +25,6 @@ body{
     background-size: contain;
     background-repeat: no-repeat;
     height: 100vh;
-    border: 1px solid yellow;
     
 }
 
@@ -75,5 +74,85 @@ body{
     background-color: var(--background-geral);
     border:1px solid white;
     margin-bottom:6px;
+}
+
+/* SEGUNDA PÁGINA */
+
+#segunda_pagina{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#segunda_pagina_informacoes{
+    width: 70%;
+    display:flex;
+    flex-direction: row;
+}
+
+#segunda_pagina_texto{
+    height: 100px;
+    margin-top: 180px;
+    padding: 6px;
+}
+
+#segunda_pagina_texto h2{
+    font-size:2.5rem
+}
+#segunda_pagina_texto p{
+    font-size:0.7rem;
+    font-weight:100;
+}
+
+/* TERCEIRA PAGINA */
+
+#terceira_pagina{
+    height:100vh;
+}
+
+#terceira_pagina button{
+    background-color:var(--cor-btn);
+    color: var(--cor-destaque);
+    padding:10px;
+    border:none;
+    margin-top:20px;
+    border-radius:4px;
+    font-size:0.6rem;
+}
+
+#terceira_pagina_informacoes{
+    padding:6px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: row-reverse;
+    width:80%;
+    margin-left:10%;
+    font-size: 0.8rem;
+}
+
+#terceira_pagina_texto{
+    width: 40%;
+    margin: 30px;
+    padding:10px;
+}
+
+/* QUARTA PAGINA */
+
+#quarta_pagina{
+    height: 100vh;
+}
+
+#quarta_pagina_informacoes{
+    display:flex;
+    justify-content:center;
+}
+
+#quarta_pagina_texto{
+    width:40%;
+    height:100px;
+    margin-top: 70px;
+    padding:6px;
 }
 
