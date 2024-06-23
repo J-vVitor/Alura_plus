@@ -1,0 +1,38 @@
+@media (max-width:400px) {
+    
+    #cabecalho_combo{
+        width: 50%;
+        margin: 0;
+        height: 800px;
+        height: 50%;
+    }
+
+    #inicio img{
+        height:3.4rem;
+        margin-top: -18px;
+    }
+
+    #cabecalho_combo button{
+        width: 60%;
+        font-size:0.4rem;
+        padding:8px;
+    }
+
+    #cabecalho_combo h1{
+        font-size:0.6rem;
+        padding:0;
+    }
+
+    #cabecalho_combo p{
+        font-size:0.4rem;
+        padding:6px;
+    }
+
+    #primeiro_btn{
+        margin-top:-2px
+    }
+
+    #segundo_btn{
+        margin-top:-5px
+    }
+}

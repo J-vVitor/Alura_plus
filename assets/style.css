@@ -14,6 +14,10 @@
     --cor-btn:#167BF7;
 }
 
+
+
+
+
 /* PRIMEIRA PÁGINA  */
 
 body{
@@ -30,7 +34,7 @@ body{
 
 #cabecalho_combo{
     width: 40%;
-    margin-left:60px;
+    margin-left:4rem;
     display:flex;
     flex-direction:column;
     justify-content: center;
@@ -70,10 +74,18 @@ body{
     margin-bottom: 20px;
 }
 
+#primeiro_btn:hover,#btn_pgq:hover{
+    background-color:#00030C;
+}
+
 #segundo_btn{
     background-color: var(--background-geral);
     border:1px solid white;
     margin-bottom:6px;
+}
+
+#segundo_btn:hover{
+    background-color: #0f1424;
 }
 
 /* SEGUNDA PÁGINA */
@@ -118,7 +130,8 @@ body{
     border:none;
     margin-top:20px;
     border-radius:4px;
-    font-size:0.6rem;
+    font-size:0.8rem;
+    width:10rem;
 }
 
 #terceira_pagina_informacoes{
@@ -156,3 +169,36 @@ body{
     padding:6px;
 }
 
+#quarta_pagina h2{
+    font-size:2.5rem;   
+}
+
+
+/* QUINTA PÁGINA */
+
+#quinta_pagina{
+    height:90vh;
+    
+}
+
+#quinta_pagina h3{
+    text-align:center;
+}
+
+#quinta_pagina_informacoes{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    margin-top:30px;
+
+}
+
+
+/* FOOTER */
+
+
+footer{
+    height: 40vh;
+    text-align:center;
+    padding:10px;
+}
