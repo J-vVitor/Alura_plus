@@ -1,38 +1,167 @@
 @media (max-width:400px) {
-    
-    #cabecalho_combo{
-        width: 50%;
+
+    #inicio{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    html{
+        overflow-x: hidden;
+    }
+
+    #container_principal{
+        overflow-x: hidden;
+    }
+
+    #inicio{
+        background-image: none;
+    }
+
+    #cabecalho_combo {
+        width: 70%;
         margin: 0;
-        height: 800px;
         height: 50%;
+        height: 36%;
     }
 
-    #inicio img{
-        height:3.4rem;
+    #inicio img {
+        height: 3.4rem;
         margin-top: -18px;
+        background-image: none;
     }
 
-    #cabecalho_combo button{
-        width: 60%;
-        font-size:0.4rem;
-        padding:8px;
+    #cabecalho_combo button {
+        background-color: var(--cor-btn);
+        color: var(--cor-destaque);
+        padding: 6px;
+        border: none;
+        border-radius: 4px;
+        font-size: 0.6rem;
+        width: 10rem
     }
 
-    #cabecalho_combo h1{
-        font-size:0.6rem;
-        padding:0;
+    #cabecalho_combo h1 {
+        font-size: 1rem;
+        padding: 0;
+
     }
 
-    #cabecalho_combo p{
-        font-size:0.4rem;
-        padding:6px;
+    #cabecalho_combo p {
+        font-size: 0.4rem;
+        padding: 1px;
+        width: 80%;
+
     }
 
-    #primeiro_btn{
-        margin-top:-2px
+    #primeiro_btn {
+        margin-top: -2px
     }
 
-    #segundo_btn{
-        margin-top:-5px
+    #segundo_btn {
+        margin-top: -5px
     }
+
+
+    /* SEGUNDA PÁGINA */
+
+    #segunda_pagina img {
+        height: 13rem;
+        margin-left: 24px;
+    }
+
+    #segunda_pagina {
+        width: 100vw;
+    }
+
+    #segunda_pagina_texto {
+        width: 100%;
+        height: 200px;
+        margin-left: -180px;
+    }
+
+    #segunda_pagina h2 {
+        font-size: 2rem;
+    }
+
+    #segunda_pagina p {
+        margin-top: 10px;
+    }
+
+
+
+    /* TERCEIRA PÁGINA */
+
+    #terceira_pagina {
+        width: 100vw;
+        display: flex;
+    }
+
+    #terceira_pagina img {
+        height: 10rem;
+    }
+
+    #terceira_pagina_informacoes {
+        flex-direction: column;
+    }
+
+    #terceira_pagina_texto {
+        width: 80%;
+
+    }
+
+    /* QUARTA PÁGINA */
+
+    #quarta_pagina {
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    #quarta_pagina img {
+        height: 10rem;
+        width: 16rem;
+        margin-left: 20%;
+    }
+
+    #quarta_pagina_informacoes {
+        flex-direction: column;
+    }
+
+    #quarta_pagina_texto {
+        height: 400px;
+        width: 80%;
+        margin-left: 36px;
+
+    }
+
+    #quarta_pagina h2 {
+        font-size: 2rem;
+    }
+
+    /* QUINTA PÁGINA */
+
+    #quinta_pagina{
+        width: 100vw;
+        height: 60vh;
+    }
+
+    #quinta_pagina img{
+        width: 90%;
+        margin-left:-10px;
+    }
+
+    /* FOOTER */
+
+    footer{
+        height: 16vh;
+        width: 100vw;
+    }
+
+    footer img{
+        width: 90%;
+        margin-left: -8px;    
+    }
+
 }

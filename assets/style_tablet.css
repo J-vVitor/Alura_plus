@@ -1,0 +1,51 @@
+@media (min-width:401px) and (max-width:450px){
+    #inicio{
+        width:300vw;
+    }
+
+    #cabecalho_combo {
+        height: 100%;
+        width: 50%;
+        margin-left: 0;
+    }
+
+    /* SEGUNDA PÁGINA */
+
+    #segunda_pagina{
+        width: 196vh;
+    }
+
+    #segunda_pagina_informacoes{
+        width: 100%;
+    }
+
+    #segunda_pagina_texto{
+        width: 40%;
+        margin-left:4%
+    }
+
+    #segunda_pagina img{
+        margin-left:10%
+    }
+
+    /* TERCEIRA PÁGINA */
+
+    #terceira_pagina{
+        width:196vh;
+        }
+
+    /* QUARTA PÁGINA*/
+
+    #quarta_pagina{
+        width:196vh;
+    }
+
+    /* QUINTA PÁGINA */
+
+    #quinta_pagina{
+        width: 100vh;
+        margin-left:70% ;
+    }
+        
+
+}
